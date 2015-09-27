@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I wish my balls would strum so that I could pick up Heinz in my fuzzy car"
+        android:id="@+id/sentence_verification_display"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="60px"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/speaker"
+        android:layout_centerInParent="true"
+        android:id="@+id/play_audio_button"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sounds good!"
+            android:id="@+id/good_sound"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOL"
+            android:id="@+id/bad_sound"/>
+
+    </LinearLayout>
+</RelativeLayout>

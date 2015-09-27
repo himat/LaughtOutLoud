@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sentence_challenge_display"
+        android:text="I wish my balls would strum so that I could pick up Heinz in my fuzzy car."
+        android:padding="80px"
+        android:gravity="center_horizontal"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mic"
+        android:id="@+id/record_btn"
+        android:layout_centerInParent="true"
+        />
+
+
+</RelativeLayout>
